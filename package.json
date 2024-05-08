@@ -1,0 +1,8 @@
+{
+    "name": "your-lumen-project",
+    "version": "1.0.0",
+    "description": "Lumen project deployed on Vercel",
+    "devDependencies": {
+        "vercel-php": "^0.5.1"
+    }
+}
