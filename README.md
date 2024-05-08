@@ -48,17 +48,17 @@ Data Params example: { <br />
 }
 
 ### Get a Loan
-URL: /loans/{id}
+URL: /loans/{id} <br />
 Method: GET
 
 
 ### Update a Loan
-URL: /loans/{id}
-Method: PUT
-Data Params example: {
-  "amount": "5000"
+URL: /loans/{id} <br />
+Method: PUT <br />
+Data Params example: { <br />
+  "amount": "5000" <br />
 }
 
 ### Delete a Loan
-URL: /loans/{id}
+URL: /loans/{id} <br />
 Method: DELETE
