@@ -40,11 +40,11 @@ php -S localhost:8000 -t public
 ## Endpoints
 
 ### Create a Loan
-URL: /loans
-Method: POST
-Data Params example: {
-  "amount": "5000",
-  "creation_date": "2024-05-07"
+URL: /loans <br />
+Method: POST <br />
+Data Params example: { <br />
+  "amount": "5000", <br />
+  "creation_date": "2024-05-07" <br />
 }
 
 ### Get a Loan
