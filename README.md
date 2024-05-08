@@ -17,3 +17,48 @@ cd loans-api
 ```bash
 composer install
 ```
+
+### Step 3: Set up environment
+```bash
+cp .env.example .env
+```
+Edit the .env file to match your settings.
+
+
+### Step 4: Run migrations
+```bash
+php artisan migrate
+```
+
+### Step 5: Run API
+```bash
+php -S localhost:8000 -t public
+```
+
+
+
+## Endpoints
+
+### Create a Loan
+URL: /loans
+Method: POST
+Data Params example: {
+  "amount": "5000",
+  "creation_date": "2024-05-07"
+}
+
+### Get a Loan
+URL: /loans/{id}
+Method: GET
+
+
+### Update a Loan
+URL: /loans/{id}
+Method: PUT
+Data Params example: {
+  "amount": "5000"
+}
+
+### Delete a Loan
+URL: /loans/{id}
+Method: DELETE
